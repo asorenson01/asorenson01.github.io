@@ -1,0 +1,44 @@
+.home{
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    
+   
+}
+
+.name{
+    font-weight: 900;
+    font-size: 100px;
+    top: 50%;
+    margin-bottom: 0%;
+   
+  
+    
+}
+.title{
+    font-weight: 400;
+    font-size: 45px;
+    top: 50%;
+   
+  
+}
+.about{
+    font-weight: normal;
+    font-size: 50px;
+    margin-top: 0%; 
+}
+.boxa{
+    height: 200px;
+    width: 200px;
+    border: black;
+    border-style: solid;
+    margin-right: 10px;  
+}
+
+.boxb{
+    height: 500px;
+    width: 500px;
+    border: black;
+    border-style: solid;
+    margin-left: 10px;  
+}
