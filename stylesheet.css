@@ -1,16 +1,14 @@
 .home{
-    align-items: center;
-    text-align: center;
-    margin: auto;
-    
-   
-}
+    display: grid;
+    margin-top: 25%;
+       }
+
+
 
 .name{
     font-weight: 900;
     font-size: 100px;
-    top: 50%;
-    margin-bottom: 0%;
+    margin: auto;
    
   
     
@@ -18,27 +16,48 @@
 .title{
     font-weight: 400;
     font-size: 45px;
-    top: 50%;
-   
+    margin: auto;
+       
   
 }
 .about{
     font-weight: normal;
     font-size: 50px;
-    margin-top: 0%; 
+    margin: auto;
 }
-.boxa{
-    height: 200px;
-    width: 200px;
+.boxa{    
     border: black;
     border-style: solid;
-    margin-right: 10px;  
+    margin-left: 40%;
+    font-size: 25px;
+    
+     
 }
 
-.boxb{
-    height: 500px;
-    width: 500px;
+.boxb{    
     border: black;
     border-style: solid;
-    margin-left: 10px;  
+    margin-left: 5%;
+    font-size: 25px;
+
+   
+}
+
+.theader{
+    text-align: center;
+}
+
+table{
+    width: 100%;
+}
+th,td{
+    width: 25%;
+}
+table, th, td {
+    border: 2px solid black;
+        
+}
+th, td {
+    text-align: center;
+
 }
