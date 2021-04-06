@@ -1,23 +1,20 @@
+/*index page */
+
 .home{
     display: grid;
     margin-top: 25%;
        }
 
-
-
 .name{
     font-weight: 900;
     font-size: 100px;
     margin: auto;
-   
-  
     
 }
 .title{
     font-weight: 400;
     font-size: 45px;
     margin: auto;
-       
   
 }
 .about{
@@ -30,8 +27,7 @@
     border-style: solid;
     margin-left: 40%;
     font-size: 25px;
-    
-     
+      
 }
 
 .boxb{    
@@ -39,10 +35,9 @@
     border-style: solid;
     margin-left: 5%;
     font-size: 25px;
-
-   
+ 
 }
-
+/* My Progject Page*/
 .theader{
     text-align: center;
 }
@@ -53,11 +48,39 @@ table{
 th,td{
     width: 25%;
 }
-table, th, td {
+table, th, td{
     border: 2px solid black;
         
 }
 th, td {
     text-align: center;
+    
 
+}
+.placeholder{
+    color: white;
+
+}
+
+/*About me Page*/
+
+.amehome{
+    display: grid;
+    grid-template-columns: auto auto;
+  
+    
+    
+}
+.ameintro{
+    font-size: 25px;
+}
+
+.ameimage1{
+    align-content: right;
+    margin-left: 25px;
+    border: 1px solid black;
+}
+.ameimage2{
+    align-content: bottom;
+    grid-row: 3 / 4;
 }
