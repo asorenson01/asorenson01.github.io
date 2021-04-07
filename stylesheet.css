@@ -113,10 +113,8 @@ td{
     background-color: white;
 }
 
-.placeholder{
-    
 
-}
+/* .placeholder{ } */
 
 /*About me Page*/
 
@@ -144,7 +142,7 @@ td{
 }
 .about-me{
     background-color:  #C7CBD4;
-    padding: 1px;
+    padding: 10px;
 }
 
 .intro{
